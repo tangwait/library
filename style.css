@@ -1,0 +1,36 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 2fr 7fr;
+}
+
+.logo {
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+.headerContainer {
+    background-color: aqua;
+}
+
+.sidebarContainer {
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.formBlanks {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.contentContainer {
+    background-color: azure;
+}
