@@ -31,6 +31,24 @@ body {
     align-items: center;
     gap: 5px;
 }
+
+.addBook {
+    padding: 10px;
+    margin: 10px;
+}
+
 .contentContainer {
     background-color: azure;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+    height: 200px;
+    gap: 10px;
+    padding: 10px;
+}
+
+.bookCard {
+    display: flex;
+    justify-content: center;
+    background-color: brown;
+    align-items: center;
 }
